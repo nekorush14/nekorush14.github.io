@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+h2.name_s {
+  margin-top: 1rem;
+  margin-bottom: 1px;
+  font-size: 1.5rem;
+}
+
+h3.position_s {
+  margin-top: 1px;
+  font-size: 15px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+h3.email_s {
+  margin-top: 1px;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+h3.affiliation {
+  margin-top: 1px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+p.comp_s {
+  font-weight: bold;
+}
+
+p.comp_sh {
+  color: #757575;
+}
+
+.main-logo {
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+
+.cover {
+  background-color: #fff;
+}
+
+.icon-container .icon-preview span {
+  text-align: left;
+  display: block;
+  font-size: 12px;
+}
+
+.icon-container i {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+:not(pre)>code[class*="language-"] {
+  border-radius: 0.3em;
+  padding: 0.1em;
+}
+
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+  background: #f5f2f0 none repeat scroll 0 0;
+}
+
+.toc {
+  position: sticky;
+  top: 4rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+.link-icon {
+  font-size: 16px;
+}
+
+.parallax {
+  position: static;
+}
+
+.devise-error-messages {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 0%;
+  left: auto !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fab-tip {
+  position: fixed;
+  right: 85px;
+  padding: 0px 0.5rem;
+  text-align: right;
+  background-color: #ffffff;
+  border-radius: 2px;
+  color: #323232;
+  width: auto;
+}
+
+.include-icon td,
+.include-icon th {
+  height: 80px;
+}
+
+.content-width td {
+  width: 150px;
+}
