@@ -40,6 +40,15 @@ p.comp_s {
 
 p.comp_sh {
   color: #757575;
+  font-size: 13px;
+}
+
+ul.browser-default {
+  padding-left: 40px;
+}
+
+ul.browser-default li {
+  list-style-type: inherit;
 }
 
 .main-logo {

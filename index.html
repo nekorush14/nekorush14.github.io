@@ -25,45 +25,55 @@
 
 <body>
   <header>
-    <nav>
-      <div class="nav-wrapper deep-purple darken-3">
-        <a href="#!" class="brand-logo">&nbsp;GitHub Pages test</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://github.com/Danboruya" class="waves-efect waves-light"><i class="fab fa-github left"></i>GitHub</a></li>
-          <li><a href="https://twitter.com/danboruya" class="waves-efect waves-light"><i class="fab fa-twitter left"></i>Twitter</a></li>
-          <li><a href="https://www.facebook.com/komuro.mitsuhiro.5" class="waves-efect waves-light"><i class="fab fa-facebook left"></i>Facebook</a></li>
-          <!--<li><a href="" class="waves-efect waves-light"><i class="fab fa-medium left"></i>Medium</a></li>-->
-        </ul>
-      </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-      <li>
-        <div class="user-view">
-          <div class="background">
-            <img src="./assets/images/background.png" alt="background" width="300" height="160">
-          </div>
-          <span>
-            <img src="./assets/images/ghocat.png" class="circle" alt="icon">
-          </span>
-          <span class="white-text name">
-            Mitsuhiro Komuro
-          </span>
-          <span class="white-text email">
-            mitsuhiro.komuro@gmail.com
-          </span>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper deep-purple darken-3">
+          <a href="#" data-target="slide-out" class="button-collapse sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+          <a href="#!" class="brand-logo">My Portfolio</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="https://github.com/Danboruya" class="waves-efect waves-light"><i class="fab fa-github left"></i>GitHub</a></li>
+            <li><a href="https://twitter.com/danboruya" class="waves-efect waves-light"><i class="fab fa-twitter left"></i>Twitter</a></li>
+            <li><a href="https://www.facebook.com/komuro.mitsuhiro.5" class="waves-efect waves-light"><i class="fab fa-facebook left"></i>Facebook</a></li>
+            <!--<li><a href="" class="waves-efect waves-light"><i class="fab fa-medium left"></i>Medium</a></li>-->
+          </ul>
         </div>
-      </li>
-      <li><a href="https://github.com/Danboruya" class="waves-efect waves-light"><i class="fab fa-github left"></i>GitHub</a></li>
-      <li><a href="https://twitter.com/danboruya" class="waves-efect waves-light"><i class="fab fa-twitter left"></i>Twitter</a></li>
-      <li><a href="https://www.facebook.com/komuro.mitsuhiro.5" class="waves-efect waves-light"><i class="fab fa-facebook left"></i>Facebook</a></li>
-      <!--<li><a href="" class="waves-efect waves-light"><i class="fab fa-medium left"></i>Medium</a></li>-->
-    </ul>
+      </nav>
+    </div>
+    <aside>
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="./assets/images/background.png" alt="background" width="300" height="160">
+            </div>
+            <span>
+              <img src="./assets/images/ghocat.png" class="circle" alt="icon">
+            </span>
+            <span class="white-text name">
+              Mitsuhiro Komuro
+            </span>
+            <span class="white-text email">
+              mitsuhiro.komuro@gmail.com
+            </span>
+          </div>
+        </li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#works">Works</a></li>
+        <div class="divider"></div>
+        <li><a href="https://github.com/Danboruya" class="waves-efect waves-light"><i class="fab fa-github left"></i>GitHub</a></li>
+        <li><a href="https://twitter.com/danboruya" class="waves-efect waves-light"><i class="fab fa-twitter left"></i>Twitter</a></li>
+        <li><a href="https://www.facebook.com/komuro.mitsuhiro.5" class="waves-efect waves-light"><i class="fab fa-facebook left"></i>Facebook</a></li>
+        <!--<li><a href="" class="waves-efect waves-light"><i class="fab fa-medium left"></i>Medium</a></li>-->
+      </ul>
+    </aside>
   </header>
+
   <main>
     <div class="row">
       <div class="col s12 m4 l8">
-        <h4>Profile</h4>
+        <h4 id="profile">Profile</h4>
       </div>
     </div>
     <div class="row">
@@ -74,7 +84,7 @@
               <img src="./assets/images/face.png" class="circle" , width="100" height="100">
             </span><br />
             <h2 class="name_s">Mitsuhiro Komuro</h2>
-            <h3 class="position_s">Graduate students [Master Course]</h3>
+            <h3 class="position_s">Graduate student [Master Course]</h3>
             <h3 class="email_s">E-mail:&nbsp;<a href="mailto:mitsuhiro.komuro@gmail.com">mitsuhiro.komuro@gmail.com</a></h3>
             <h3 class="affiliation">Affiliation:&nbsp;<a href="https://cis.hosei.ac.jp/gs/">Hosei University Graduate
                 school of Computer and Information Sciences</a></h3>
@@ -117,17 +127,13 @@
             <ul>
               <li class="br">
                 <i class="material-icons left">school</i>
-                <div class="container">
-                  <p class="comp_s">April 2014 - March 2018</p>
-                  <p class="comp_sh">Hosei University Information and Computer Sciences</p>
-                </div>
+                <p class="comp_s">April 2014 - March 2018</p>
+                <p class="comp_sh">Hosei University Information and Computer Sciences</p>
               </li>
               <li>
                 <i class="material-icons left">school</i>
-                <div class="container">
-                  <p class="comp_s">April 2018 -</p>
-                  <p class="comp_sh">Hosei University Graduate School of Information and Computer Sciences</p>
-                </div>
+                <p class="comp_s">April 2018 -</p>
+                <p class="comp_sh">Hosei University Graduate School of Information and Computer Sciences</p>
               </li>
             </ul>
           </div>
@@ -135,10 +141,129 @@
       </div>
     </div>
     <div class="row">
-      
+      <div class="col s12 m4 l8">
+        <h4 id="works">Works</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card hoverable">
+          <div class="card-content">
+            <span class="card-title">Publications</span>
+            <ul class="browser-default">
+              <li class="pub">
+                小室光広，佐藤裕二，"柔軟な対話システムのための再帰的ニューラルネットワークによる文カテゴリ手法の検討",
+                第80回全国大会講演論文集, pp.415-416, 2018
+              </li>
+              <li class="pub">
+                小室光広，佐藤裕二，"再帰的ニューラルネットワークを用いた分カテゴリ分類の精度向上"，
+                電子情報通信学会技術研究報告，vol.118，no.367，pp.47-50，2018
+              </li>
+              <li class="pub">
+                Mitsuhiro Komuro, Yuji Sato, "Sentence classification method using recurrent neural network structure",
+                The Twenty-Fourth International Symposium on Artificial Life and Robotics (AROB 24th 2019), pp.691-694,
+                2019
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="assets/images/grsc.png">
+            <span class="card-title">GR sentence classification</span>
+          </div>
+          <div class="card-content">
+            <p>
+              2017 my graduation research at Hosei Univ, Japan. This project is targeted for sentence classification by
+              recurrent neural network structure.<br /><br />
+              <strong>Keyword:</strong><br />Natural language processing, Recurrent neural network, TensorFlow
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/Danboruya/gr-rnn-sentence-classification">GitHub repository</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="assets/images/lcp.png">
+            <span class="card-title">Lab companion</span>
+          </div>
+          <div class="card-content">
+            <p>
+              This web application assist to manage your laboratory member. It can laboratory room member management,
+              post the article with markdown supported, and managing your todo with markdown supported.<br /><br />
+              <strong>Keyword:</strong><br />Ruby on Rails, Materialize, redcarpet
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/Danboruya/lab-companion">GitHub repository</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="assets/images/pts.jpg">
+            <span class="card-title">Project Tonttu Spiegel</span>
+          </div>
+          <div class="card-content">
+            <p>
+              Hack U 2018 project at Hosei Univ. Japan. Smart mirror with google assistant sdk.
+              This project create smart mirror. Display current time, current weather and temperature. In addition, you
+              can ask mirror with google assistant built-in commands.<br /><br />
+              <strong>Keyword:</strong><br />Google Assistant SDK, Google Cloud Text-to-Speech, bottle
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/Danboruya/lab-companion">GitHub repository</a>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
-  <footer></footer>
+  <footer class="page-footer deep-purple darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact</h5>
+          <p class="grey-text text-lighten-4">E-mail:&nbsp;
+            <a href="mailto:mitsuhiro.komuro@gmail.com">mitsuhiro.komuro@gmail.com</a>
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#works">Works</a></li>
+            <li>
+              <a href="https://github.com/Danboruya" class="waves-efect waves-light">
+                <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/danboruya" class="waves-efect waves-light">
+                <i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/komuro.mitsuhiro.5" class="waves-efect waves-light">
+                <i class="fab fa-facebook"></i>&nbsp;&nbsp;Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; 2018 Mitsuhiro Komuro ALL RIGHTS RESERVED.
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
