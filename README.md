@@ -1,7 +1,7 @@
 # My portfolio
 
 ## Description
-Portfolio of Mitsuhiro Komuro. Please visit following site.
+Portfolio of Mitsuhiro Komuro. Please visit following site.  
 [Mitsuhiro Komuro Portfolio](https://danboruya.github.io)
 
 ## LICENCE
